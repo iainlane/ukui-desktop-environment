@@ -1,9 +1,23 @@
-ukui-desktop-environment (2.0.3) groovy; urgency=medium
+ukui-desktop-environment (2.0.3) UNRELEASED; urgency=medium
 
-  * debian/control: remove the dependency on gvfs-bin, which was removed in
-    groovy
+  [ handsome-feng ]
+  * Add a screenshot of desktop
+  * Add README.md
+  * gnome-screenshot->mate-utils
+  * Replace ukwm with ukui-kwin
+  * ukui-kwin | ukwm; update readme
+  * Update the install method of UKUI
 
- -- Olivier Tilloy <olivier.tilloy@canonical.com>  Wed, 16 Sep 2020 17:37:19 +0200
+  [ Newbyte ]
+  * Introductory sentence fixup
+
+  [ Felix Yan ]
+  * Add installation instructions for Arch
+
+  [ Olivier Tilloy ]
+  * Remove the dependency on gvfs-bin, which was removed in Ubuntu groovy.
+
+ -- Iain Lane <iain@orangesquash.org.uk>  Fri, 18 Sep 2020 17:28:38 +0100
 
 ukui-desktop-environment (2.0.2) focal; urgency=medium
 
